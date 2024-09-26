@@ -1,0 +1,39 @@
+JAVASCRIPT - ARRAY 
+
+
+property ha jo ek value de deti ha aur method jo kch kam krta ha 
+
+
+TYPE OF ARRAY : 
+
+Array khud me ek type nahi hota . Array khud ek "OBJECT" type hota ha 
+jab hamne datatype ki baat ki thi to do (2) type ki datatype thi . Ek thi
+primitive mtlb basic datatype or ek hoti ha non primitive Advance datatype . Advance datatype me hamne objects ki baat ki thi . Array ek special type of object
+hi hota ha . Array javascript me internoly ek Object hi hoti ha uski type me Array print hoke nahi aye ga . Array ko object ke comparison me ham thora sa separatly 
+treat krte hain. ham ye soch skte hain ke ham array hamari aisi object ha jis me key valye pair to ho
+ta ha but key ki jagh ham index ko use krte hain 
+
+STRING ARE MUTABLE ----> THEY CANOT BE CHANGED
+ARRAY ARE IMMUTABLE ----> THEY ARE CHANGED
+
+
+LOOPING OVER AN ARRAY :
+
+LOOP --> ITERABLE (string , objects , array)
+
+strings are the collection of characters
+object are the collections of key value pairs
+array are the collections of similar type of 
+
+
+
+PUSH AND POP METHOD IN ARRAY : 
+
+Push : Add element from end <---- output in string
+Pop : Remove element from end <---- output in string
+Shift : Remove element from start <---- output in array
+Unshift : Add element from start  <---- output in array (it create new array)
+
+
+SPLICE AND SLICE METHOD IN ARRAY : 
+
