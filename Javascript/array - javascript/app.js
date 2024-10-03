@@ -97,3 +97,52 @@
 // }
 
 
+
+
+// -----------------
+
+let dishes = ['biryani','korma','mandi','beef burger','chicken tikka','malai boti','white karhai','methe chawal']
+
+let coldDrinkStock = ['pepsi','7up','marinda','fanta','dew','coca-cola','sting','red bull'];
+
+
+
+let userDish = prompt('khane me kiya lake dun ?');
+
+let colDrinkMili = false;
+let itemMila = false;
+
+for(i = 0; i < dishes.length ; i++){
+    if(userDish === dishes[i]){
+        console.log("chote !! bhai ka item", dishes[i]," lake de joke counter nbr", i , "se mile ga");
+        itemMila = true;
+        
+        let coldDrinkuser = prompt("cold drink me kia leke aao ?");
+        for(j = 0 ; j < coldDrinkStock.length ; j++){
+      if(coldDrinkuser === coldDrinkStock[j]){
+        console.log("chote!! bhai ki cold drink", coldDrinkStock[j],"jaldi lake de");
+        colDrinkMili = true
+      }
+            
+        }
+break;
+    }
+}
+
+if (itemMila){
+    console.log("ustad !! bhai ka item deliver krdiya ha");
+    
+}
+else{
+    console.log("ustad !! item nahi mila");
+    
+}
+
+if (colDrinkMili){
+    console.log("cold drink bhi deliver krdia ha");
+    
+}
+else{
+    console.log("cold drink nahi mili");
+    
+}
